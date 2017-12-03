@@ -14,7 +14,21 @@
     "yeoman-generator": "2.0.0",
     "yosay": "^2.0.1"
   },
-  "repository": "https://github.com/vladpantea/generator-uRestExpress.git",
-  "author": "Vlad Pantea",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vladpantea/generator-uRestExpress.git"
+  },    
+  "author": {
+    "name": "vladpantea",
+    "email": "vlad.pantea@gmail.com",
+    "url": "https://github.com/vladpantea"
+  },
+  "engines": {
+    "node": ">=8.9.1"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
 }

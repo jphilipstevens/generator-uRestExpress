@@ -21,6 +21,12 @@ Install guide:
 - answer the inputs required
 - run the generated Express service ;)
 
+# Development
+
+Working commands in generated folder
+- nodemon index.js
+- node index.js
+
 # Grunt Tasks
 
 Working grunt tasks
