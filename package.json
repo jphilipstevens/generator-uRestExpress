@@ -1,0 +1,19 @@
+{
+  "name": "generator-uRestExpress",
+  "version": "1.0.0",
+  "description": "Basic Express REST API for quick and easy start",
+  "files": [
+    "src"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "glob": "^7.1.2",
+    "mkdirp": "^0.5.1",
+    "yeoman-generator": "2.0.0",
+    "yosay": "^2.0.1"
+  },
+  "author": "Vlad Pantea",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "uRestExpress",
+  "version": "1.0.0",
+  "description": "Basic Express REST API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Pantea",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "jshint-stylish": "^2.2.1",
+    "nodemon": "^1.12.1"
+  }
+}
