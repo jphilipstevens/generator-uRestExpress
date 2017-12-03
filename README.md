@@ -16,6 +16,7 @@ This repo will help you generate a basic REST Express application. Containing:
 Install guide:
 - install yeoman (npm install -g yo)
 - clone repo 
+- npm install/yarn install
 - run yo generator(locally: yo <path to repo>/src/index.js)
 - answer the inputs required
 - run the generated Express service ;)
