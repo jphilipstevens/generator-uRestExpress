@@ -9,7 +9,7 @@ This repo will help you generate a basic REST Express application. Containing:
 - routing
 - grunt setup
 - linting with jshint
-- unit tests(todo)
+- unit tests(mocha,coverage,supertest)
 
 # Install Info
 
@@ -31,6 +31,8 @@ Working commands in generated folder
 
 Working grunt tasks
 - grunt jshint
+- grunt test
+- grunt githooks => (add a git hook to run jshint + unit tests before every commit to git)
 
 ## License
 
