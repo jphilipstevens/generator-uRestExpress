@@ -8,14 +8,25 @@
   },
   "author": "Vlad Pantea",
   "license": "MIT",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2"
-  },
   "devDependencies": {
+    "chai": "^4.1.2",
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.1.0",
+    "grunt-githooks": "^0.6.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-mocha-test": "^0.13.2",
+    "istanbul": "^0.4.5",
+    "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
-    "nodemon": "^1.12.1"
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.5.3",
+    "nodemon": "^1.12.1",        
+    "supertest": "^3.0.0"
+  },
+  "dependencies": {    
+    "body-parser": "1.18.2",
+    "dotenv": "4.0.0",
+    "express": "4.15.4",
+    "helmet": "3.8.1"
   }
 }

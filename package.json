@@ -1,6 +1,6 @@
 {
   "name": "generator-urestexpress",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Basic Express REST API for quick and easy start",
   "files": [
     "src"
