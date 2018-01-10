@@ -3,8 +3,9 @@
  */
 'use strict';
 
-const route = function(express,app,jsonParser,mainController){
-    var mainRouter = express.Router();
+const route = function(express,bodyParser,mainController){
+    let mainRouter = express.Router();
+    let jsonParser = bodyParser.json();
 
     mainRouter.get('/getAll',jsonParser,mainController.getAll);
     mainRouter.get('/getById',jsonParser,mainController.getById);
@@ -12,8 +13,9 @@ const route = function(express,app,jsonParser,mainController){
     mainRouter.put('/updateOne',jsonParser,mainController.updateOne);
     mainRouter.delete('/deleteOne',jsonParser,mainController.deleteOne);
 
-
-    app.use('/api',mainRouter);
+    return {
+        definedRoutes : mainRouter
+    };
 };
 
 module.exports = route;

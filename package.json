@@ -6,7 +6,11 @@
     "src"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "rest service with express",
+    "working rest service",
+    "express with grunt setup",
+    "express with dependency injection container"    
   ],
   "dependencies": {
     "glob": "^7.1.2",

@@ -129,6 +129,7 @@ module.exports = class extends Generator {
             pjson.dependencies = expressJson.dependencies;
             pjson.devDependencies = expressJson.devDependencies;
             pjson.main = expressJson.main;
+            pjson.scripts = expressJson.scripts;
 
             return pjson;
         }
